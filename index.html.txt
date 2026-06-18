@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Back 40 BBQ | Marion, IA — Not Pretentious, Just Delicious</title>
+  <meta name="description" content="Award-winning BBQ catering in Marion, Iowa. Ribs, brisket, pulled pork, smoked turkey and more. Call Matt at (563) 219-0019." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="logo">BACK 40 <span>BBQ</span></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#catering">Catering</a>
+      <a href="#contact" class="cta-sm">Book Matt</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">🏆 1st Place Pork — Marion BBQ Rendezvous 2023</p>
+      <h1>Not Pretentious.<br/><span class="accent">Just Delicious.</span></h1>
+      <p class="tagline">Slow-smoked BBQ catering serving Marion, Cedar Rapids & all of Eastern Iowa.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn primary">Request a Quote</a>
+        <a href="tel:5632190019" class="btn ghost">📞 (563) 219-0019</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge">⭐ 5.0 Rating</div>
+        <div class="badge">🔥 Real Wood Smoke</div>
+        <div class="badge">🥩 Locally Owned</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container two-col">
+      <div>
+        <h2>Meet Matt.</h2>
+        <p>Back 40 BBQ is a family-run catering company based right here in Marion, Iowa. Owner and pitmaster <strong>Matt Miller</strong> is always experimenting — from smoked meatloaf and BBQ burritos to smoked cream cheese and house-made sauce.</p>
+        <p>Whether it's a corporate event, a small business meeting, or a family get-together, Matt brings the smoker and the flavor. <em>You bring the appetite.</em></p>
+        <blockquote>"Matt is an amazing BBQer and an even better person." <span>— Josh S., Decorah IA</span></blockquote>
+      </div>
+      <div class="about-stats">
+        <div><span>2023</span><p>Established as Back 40 BBQ, Inc.</p></div>
+        <div><span>1st</span><p>Place Pork — Marion BBQ Rendezvous</p></div>
+        <div><span>7am–7pm</span><p>Open Daily for Orders</p></div>
+        <div><span>100%</span><p>Response Rate to Inquiries</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section menu">
+    <div class="container">
+      <h2 class="center">The Smokehouse Menu</h2>
+      <p class="center sub">Always experimenting. Always smoking. Got a wild idea? Matt's game to try it.</p>
+
+      <div class="menu-grid">
+        <div class="menu-card">
+          <h3>🥩 Smoked Meats</h3>
+          <ul>
+            <li>St. Louis Ribs <span>$30 / rack</span></li>
+            <li>Beef Brisket <span>$30 / lb</span></li>
+            <li>Pulled Pork <span>$16 / lb</span></li>
+            <li>Chicken & Wings</li>
+            <li>Smoked Turkey (12–14 lb) <span>$75</span></li>
+            <li>Double-Smoked Glazed Ham <span>$10 / lb</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-card">
+          <h3>🌽 Sides</h3>
+          <ul>
+            <li>Mac & Cheese <span>$45 / half pan</span></li>
+            <li>Smoked Baked Beans</li>
+            <li>Party Potatoes <span>$45 / half pan</span></li>
+            <li>Coleslaw</li>
+            <li>Sweet Potato Casserole</li>
+            <li>Cornbread</li>
+          </ul>
+        </div>
+
+        <div class="menu-card">
+          <h3>🌶️ Fixin's & Experiments</h3>
+          <ul>
+            <li>Cowboy Candy (Candied Jalapeños)</li>
+            <li>Candy Onions</li>
+            <li>Smoked Meatloaf</li>
+            <li>BBQ Burritos</li>
+            <li>Smoked Cream Cheese</li>
+            <li>House BBQ Sauce — coming soon!</li>
+          </ul>
+        </div>
+
+        <div class="menu-card sweet">
+          <h3>🍰 Desserts (½ Pan $45)</h3>
+          <ul>
+            <li>Banana Pudding</li>
+            <li>Apple Pie</li>
+            <li>Bread Pudding</li>
+          </ul>
+        </div>
+      </div>
+      <p class="center disclaimer">Prices reflect recent specials and may vary by event size. Message Matt for a custom quote.</p>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section reviews">
+    <div class="container">
+      <h2 class="center">What Folks Are Saying</h2>
+      <div class="review-grid">
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"I don't know these guys — just a guest at a wedding. But I know the bride's mom and the morning after she said she couldn't have asked for a more caring and careful caterer. They arrived on time…"</p>
+          <span>— Barbara H., via Yelp</span>
+        </div>
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Matt is an amazing BBQer and an even better person!"</p>
+          <span>— Josh S., Decorah IA</span>
+        </div>
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>"BBQ CRITIC APPROVED — 1st Place Pork at the Marion BBQ Rendezvous."</p>
+          <span>— BBQ Critic, 2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATERING -->
+  <section id="catering" class="section catering">
+    <div class="container two-col">
+      <div>
+        <h2>Catering, Big or Small.</h2>
+        <p>Back 40 BBQ specializes in top-notch catering for:</p>
+        <ul class="checks">
+          <li>Corporate events & business lunches</li>
+          <li>Weddings & rehearsal dinners</li>
+          <li>Family get-togethers & holidays</li>
+          <li>Game day spreads (Iowa Bowl, anyone?)</li>
+          <li>Holiday hams, turkeys & sides</li>
+        </ul>
+        <a href="#contact" class="btn primary">Start Your Order</a>
+      </div>
+      <div class="card-promo">
+        <h3>🎄 Seasonal Specials</h3>
+        <p>Slow-smoked wings <strong>$1.50 ea</strong> · Party ribs <strong>$3 / bone</strong> · Double-smoked cherry bourbon glazed hams.</p>
+        <small>Specials rotate — call to see what's smoking.</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="center">Let's Get Smokin'.</h2>
+      <p class="center sub">Reach out to Matt directly — typically responds within 18 hours.</p>
+      <div class="contact-grid">
+        <a href="tel:5632190019" class="contact-card">📞<h3>(563) 219-0019</h3><p>Call or text Matt</p></a>
+        <a href="https://facebook.com" target="_blank" class="contact-card">💬<h3>Facebook</h3><p>Daily specials & updates</p></a>
+        <div class="contact-card">📍<h3>Marion, IA 52302</h3><p>Serving Cedar Rapids & Eastern Iowa</p></div>
+      </div>
+
+      <form class="quote-form" onsubmit="return submitQuote(event)">
+        <h3>Request a Catering Quote</h3>
+        <div class="row">
+          <input required type="text" id="name" placeholder="Your Name" />
+          <input required type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="row">
+          <input type="date" id="date" />
+          <input type="number" id="guests" placeholder="# of Guests" min="1" />
+        </div>
+        <textarea id="details" rows="4" placeholder="Tell Matt about your event — meats, sides, vibe…"></textarea>
+        <button type="submit" class="btn primary">Send Quote Request</button>
+        <p id="form-msg" class="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Back 40 BBQ, Inc. · Marion, IA · Not Pretentious, Just Delicious.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

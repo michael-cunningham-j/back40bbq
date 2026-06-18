@@ -1,0 +1,145 @@
+:root {
+  --smoke: #1a1410;
+  --char: #2b1d15;
+  --ember: #d94e1f;
+  --flame: #f5a623;
+  --cream: #faf3e7;
+  --bark: #5b3a26;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--smoke);
+  line-height: 1.6;
+}
+h1, h2, h3, .logo { font-family: 'Bebas Neue', sans-serif; letter-spacing: 1px; }
+
+/* NAV */
+.nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 2rem; background: var(--smoke); color: var(--cream);
+  position: sticky; top: 0; z-index: 100;
+}
+.logo { font-size: 1.8rem; color: var(--flame); }
+.logo span { color: var(--ember); }
+.nav nav a { color: var(--cream); text-decoration: none; margin: 0 0.75rem; font-weight: 600; }
+.nav nav a:hover { color: var(--flame); }
+.cta-sm { background: var(--ember); padding: 0.5rem 1rem; border-radius: 4px; }
+
+/* HERO */
+.hero {
+  min-height: 90vh;
+  background: linear-gradient(rgba(26,20,16,0.75), rgba(26,20,16,0.85)),
+    url('https://images.unsplash.com/photo-1544025162-d76694265947?w=1600') center/cover;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; color: var(--cream); padding: 2rem;
+}
+.hero h1 { font-size: clamp(3rem, 8vw, 6rem); line-height: 1; margin: 1rem 0; }
+.hero h1 .accent { color: var(--flame); }
+.eyebrow { color: var(--flame); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+.tagline { font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; }
+.hero-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+.btn {
+  padding: 0.9rem 1.8rem; border-radius: 6px; font-weight: 700;
+  text-decoration: none; transition: transform 0.2s; cursor: pointer; border: none;
+  font-size: 1rem;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn.primary { background: var(--ember); color: white; }
+.btn.ghost { background: transparent; color: var(--cream); border: 2px solid var(--cream); }
+.hero-badges { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.badge { background: rgba(255,255,255,0.15); padding: 0.5rem 1rem; border-radius: 30px; font-size: 0.9rem; }
+
+/* SECTIONS */
+.section { padding: 5rem 2rem; }
+.container { max-width: 1100px; margin: 0 auto; }
+.center { text-align: center; }
+.sub { color: var(--bark); margin-bottom: 3rem; }
+h2 { font-size: 2.8rem; color: var(--char); margin-bottom: 1rem; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+
+/* ABOUT */
+.about { background: var(--cream); }
+.about blockquote {
+  border-left: 4px solid var(--ember);
+  padding: 1rem; font-style: italic; background: white; margin-top: 1.5rem;
+}
+.about blockquote span { display: block; margin-top: 0.5rem; font-style: normal; color: var(--bark); font-weight: 700; }
+.about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.about-stats div { background: var(--smoke); color: var(--cream); padding: 1.5rem; border-radius: 8px; text-align: center; }
+.about-stats span { font-family: 'Bebas Neue'; font-size: 2.5rem; color: var(--flame); }
+
+/* MENU */
+.menu { background: var(--smoke); color: var(--cream); }
+.menu h2 { color: var(--flame); }
+.menu .sub { color: #c9b89c; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.menu-card {
+  background: var(--char); padding: 1.8rem; border-radius: 10px;
+  border-top: 4px solid var(--ember);
+}
+.menu-card h3 { font-size: 1.6rem; color: var(--flame); margin-bottom: 1rem; }
+.menu-card ul { list-style: none; }
+.menu-card li {
+  display: flex; justify-content: space-between;
+  padding: 0.6rem 0; border-bottom: 1px dashed #4a3a2e;
+}
+.menu-card li span { color: var(--flame); font-weight: 700; }
+.disclaimer { color: #c9b89c; margin-top: 2rem; font-size: 0.9rem; }
+
+/* REVIEWS */
+.reviews { background: var(--cream); }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.review {
+  background: white; padding: 2rem; border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06); border-top: 4px solid var(--flame);
+}
+.stars { color: var(--flame); font-size: 1.4rem; margin-bottom: 0.5rem; }
+.review span { display: block; margin-top: 1rem; color: var(--bark); font-weight: 700; }
+
+/* CATERING */
+.catering { background: var(--char); color: var(--cream); }
+.catering h2 { color: var(--flame); }
+.checks { list-style: none; margin: 1rem 0; }
+.checks li { padding: 0.4rem 0 0.4rem 1.8rem; position: relative; }
+.checks li::before { content: '🔥'; position: absolute; left: 0; }
+.card-promo {
+  background: var(--ember); color: white; padding: 2.5rem; border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(217,78,31,0.4);
+}
+.card-promo h3 { font-size: 1.8rem; margin-bottom: 1rem; }
+
+/* CONTACT */
+.contact { background: var(--cream); }
+.contact-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem; margin-bottom: 3rem;
+}
+.contact-card {
+  background: white; padding: 2rem; text-align: center; border-radius: 8px;
+  text-decoration: none; color: var(--smoke); font-size: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06); transition: transform 0.2s;
+}
+.contact-card:hover { transform: translateY(-4px); }
+.contact-card h3 { font-size: 1.4rem; margin-top: 0.5rem; }
+.contact-card p { font-size: 0.95rem; color: var(--bark); }
+
+.quote-form {
+  background: white; padding: 2.5rem; border-radius: 10px; max-width: 700px; margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.quote-form h3 { font-size: 1.8rem; margin-bottom: 1rem; color: var(--char); }
+.quote-form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+.quote-form input, .quote-form textarea {
+  width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 6px;
+  font-family: inherit; font-size: 1rem;
+}
+.quote-form textarea { margin-bottom: 1rem; }
+.form-msg { margin-top: 1rem; color: var(--ember); font-weight: 700; }
+
+/* FOOTER */
+footer { background: var(--smoke); color: var(--cream); text-align: center; padding: 2rem; }
